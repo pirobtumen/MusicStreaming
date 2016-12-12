@@ -30,15 +30,15 @@ Also you have to manually add songs under "songs" folder.
 
 # How it works
 
-The server has a list of archivos (added manually, but it's easy to read a folder) and waits for requests.
+The server has a list of files (added manually, but it's easy to read a folder) and waits for requests.
 
  The client makes a request of some data and the server sends the data over TCP. "size,data"
 
- The server reads any file and sends it as bytes (so you can use the server/client classes as a base of your project).
+ The server can read any file and sends it as bytes (so you can use the server/client classes as a base of your project).
 
  Our app (UI.main) uses the client to request the bytes to the server, and those bytes are decoded using MP3seth in order to play the song.
 
- Probably there are some bugs and the code is not optimized, but it was fun to make it in a very shor period of time!
+ Probably there are some bugs and the code is not optimized, but it was fun to make it in a very short period of time!
 
 # Usage
 
